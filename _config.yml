@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Daniel Juarez Luna"
+site_theme               : "air" # Currently available options are "default", "air"
+title                    : "Ms Medical Physics Journey"
 title_separator          : "-"
 name                     : &name "Daniel Juarez Luna"
 description              : &description "This is my ePortfolio that I will develop as I complete the MS Medical Physics Program at Creighton University. Each page documents standards that I plan to demonstrate competence in by the time I complete the program."

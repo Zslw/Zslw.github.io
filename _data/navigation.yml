@@ -8,20 +8,50 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "My Roadmap"
+    url: /my_Roadmap/
+
+  - title: "Clinical Experience"
+    url: /clinic_xp/
+  
+  - title: "Key Competencies"
+    url: /competencies/
+
+  - title: "Disciplinary Competence"
+    url: /competence/
+  - title: "Professional Development"
+    url: /development/
+  - title: "Presentations"
+    url: /presentations/
+  - title: "Research Design"
+    url: /research_Design/
+  - title: "Research Process"
+    url: /research_Process/
+  - title: "Research Role"
+    url: /research_Role/
+  - title: "M.S. Thesis or Research Paper"
+    url: /thesis/
+  - title: "Deliberate Reflection"
+    url: /reflection/
+  - title: " Interpersonal Collaborative Skills"
+    url: /skills/
+  - title: "Awareness of Complexity of Knowledge"
+    url: /awareness/
+    
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  #- title: "Talks"
+   # url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  #- title: "Teaching"
+   # url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  #- title: "Portfolio"
+   # url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  #- title: "Blog Posts"
+   # url: /year-archive/
     
   - title: "CV"
     url: /cv/

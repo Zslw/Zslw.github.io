@@ -16,6 +16,15 @@ main:
   
   - title: "Key Competencies"
     url: /competencies/
+    
+  - title: "CV"
+    url: /cv/
+    
+  # - title: "CV"
+  #   url: /cv-json/
+
+  - title: "Outside the field"
+    url: /out_field/  
 
   - title: "Disciplinary Competence"
     url: /competence/
@@ -52,12 +61,6 @@ main:
         
   #- title: "Blog Posts"
    # url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
     
   - title: "Guide"
     url: /markdown/

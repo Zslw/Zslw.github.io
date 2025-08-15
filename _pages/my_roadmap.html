@@ -1,0 +1,56 @@
+---
+layout: archive
+title: "M.S. Medical Physics Program Checklist"
+permalink: /my_Roadmap/
+author_profile: true
+---
+
+<div id="content">
+  <h2>Checklist</h2>
+  <p>The M.S. Medical Physics Program checklist includes core courses, exams, research progress, and what's next for degree completion.</p>
+
+<h3>Core Courses Completed (35 credit hours):</h3>
+<ul>
+  {% assign course_order = 
+    "Medical Imaging I,Medical Imaging II,Radiation Therapy,Dosimetry,Radiation Biophysics,Nuclear Instruments and Methods,Nuclear Physics,Quantum Mechanics,Computational Methods,Medical Physics Rotation,Medical Physics Anatomy,Medical Physics Seminar,Directed Independent Research,Physiology" | split: "," %}
+
+  {% for title in course_order %}
+    {% assign course = site.courses | where: "title", title | first %}
+    {% if course %}
+      <li>{% if course.completed %}☑️{% else %}⬜{% endif %} <a href="{{ course.url }}">{{ course.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+
+
+<h3>Research Progress</h3>
+
+<h4>Thesis Option</h4>
+<pre>
+________        Thesis Adviser Arranged
+________        Thesis Committee Assigned
+________        Thesis Committee Meetings Held Each Semester
+________ Sem 1  ________ Sem 2   ________ Sem 3  ________ Sem 4
+________        Thesis Proposal submitted to Committee at the beginning of the third semester
+________        Application for degree filed with Graduate School and Registrar.
+________        Thesis Draft approved by Thesis Advisor (Thesis Option)
+________        Submission of Thesis Draft to Committee
+________        Oral Defense of Thesis
+________        Online Submission of Thesis to ProQuest
+</pre>
+
+<h4>Non-Thesis Option</h4>
+<pre>
+________        Research Adviser Arranged
+________        Application for degree filed with Graduate School and Registrar.
+________        Completion of Research Paper, Approved by Research Advisor
+</pre>
+
+
+
+
+  <h3>What's Next:</h3>
+  <p>________          Commencement Plans</p>
+</div>

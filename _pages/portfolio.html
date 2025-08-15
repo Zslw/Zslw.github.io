@@ -1,14 +1,71 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Key Competencies / Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<p>The M.S. program in medical physics provides students with the basic and applied knowledge necessary for further education and research in medical physics. Students completing the program will be well-prepared for Part 1 of the ABR board certification exam and have the necessary skills to continue their training in a clinical residency program. To this end, students completing the program will…</p>
 
-{% for post in site.portfolio %}
+<hr>
+<h2>Disciplinary Competence</h2>
+{% assign items = site.portfolio | where: "categories", "Disciplinary Competence" %}
+{% for post in items %}
   {% include archive-single.html %}
 {% endfor %}
-
+<hr>
+<h2>Professional Development</h2>
+{% assign items = site.portfolio | where: "categories", "Professional Development" %}
+{% for post in items %}
+  {% include archive-single.html %}
+{% endfor %}
+<hr>
+<h2>Communication & Presentations</h2>
+{% assign items = site.talks %}
+{% for post in items reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+<hr>
+<h2>Research Design</h2>
+{% assign items = site.portfolio | where: "categories", "Research Design" %}
+{% for post in items %}
+  {% include archive-single.html %}
+{% endfor %}
+<hr>
+<h2>Research Process</h2>
+{% assign items = site.portfolio | where: "categories", "Research Process" %}
+{% for post in items %}
+  {% include archive-single.html %}
+{% endfor %}
+<hr>
+<h2>Research Role</h2>
+{% assign items = site.portfolio | where: "categories", "Research Role" %}
+{% for post in items %}
+  {% include archive-single.html %}
+{% endfor %}
+<hr>
+<h2>M.S. Thesis or Research Paper</h2>
+{% assign items = site.portfolio | where: "categories", "M.S. Thesis or Research Paper" %}
+{% for post in items %}
+  {% include archive-single.html %}
+{% endfor %}
+<hr>
+<h2>Deliberate Reflection</h2>
+{% assign items = site.portfolio | where: "categories", "Deliberate Reflection" %}
+{% for post in items %}
+  {% include archive-single.html %}
+{% endfor %}
+<hr>
+<h2>Interpersonal Collaborative Skills</h2>
+{% assign items = site.portfolio | where: "categories", "Interpersonal Collaborative Skills" %}
+{% for post in items %}
+  {% include archive-single.html %}
+{% endfor %}
+<hr>
+<h2>Awareness of Complexity of Knowledge</h2>
+{% assign items = site.portfolio | where: "categories", "Awareness of Complexity of Knowledge" %}
+{% for post in items %}
+  {% include archive-single.html %}
+{% endfor %}

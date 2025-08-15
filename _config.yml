@@ -220,6 +220,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  clinical:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -229,7 +232,10 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  courses:
+    output: true
+    permalink: /courses/:path/
+  
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -251,10 +257,26 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _courses
+  - scope:
+      path: ""
+      type: courses
+    values:
+      layout: single
+      author_profile: true
   # _teaching
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _clinical
+  - scope:
+      path: ""
+      type: clincal
     values:
       layout: single
       author_profile: true

@@ -24,10 +24,10 @@ The hamburger menu on the top right corner has even more to explore!
 ## Quick Navigation
 
 - **[My Roadmap](./my_Roadmap/)** – Track my progress through the M.S. Medical Physics program, courses, and reflections on CAMPEP goals.
-- **[Clinical Experience](./clinic_xp/)** – Reports and reflections from shadowing and hands-on clinical observations.
-- **[Key Competencies](./competencies/)** – Competencies developed during my program and how I applied them.
-- **[Research & Publications](./research_Design/)** – My thoughts on Research design, process, and papers.
-- **[Outside the Field](./out_field/)** – Creative projects, finance experience, and other explorations.
+- **[Clinical Experience](./clinical/)** – Reports and reflections from shadowing and hands-on clinical observations.
+- **[Key Competencies](./portfolio/)** – Competencies developed during my program and how I applied them.
+- **[Research & Publications](./publications/)** – My thoughts on Research design, process, and papers.
+- **[Outside the Field](./year-archive/)** – Creative projects, finance experience, and other explorations.
 - **[CV](./cv/)** – Academic and professional résumé.
 
 ## Spotlight

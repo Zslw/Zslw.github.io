@@ -276,7 +276,7 @@ defaults:
   # _clinical
   - scope:
       path: ""
-      type: clincal
+      type: clinical
     values:
       layout: single
       author_profile: true

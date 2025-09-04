@@ -1,7 +1,7 @@
 ---
 title: "Medical Imaging I"
 collection: courses
-date: 2025-01-01
+date: 2024-01-01
 permalink: /courses/Medical_Imaging_I/
 completed: true
 ---

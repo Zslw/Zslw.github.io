@@ -10,8 +10,8 @@ date: 2025-08-01
 time: 3hrs
 Supervisor: Will Ferris, Medical Physicist
 location: "Omaha, NE"
-description: "Initial tour of all imaging suites, including MRI, CT, Nuclear Medicine, Mammography, Fluoroscopy, X-ray, Ultrasound, and Interventional Radiology."
-docs: "Imaging Checklist"
+description: ""
+docs: ""
 completed: true
 ---
 

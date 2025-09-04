@@ -12,7 +12,7 @@ author_profile: true
 <h3>Core Courses Completed (35 credit hours):</h3>
 <ul>
   {% assign course_order = 
-    "Medical Imaging I,Medical Imaging II,Radiation Therapy,Dosimetry,Radiation Biophysics,Nuclear Instruments and Methods,Nuclear Physics,Quantum Mechanics,Computational Methods,Medical Physics Rotation,Medical Physics Anatomy,Medical Physics Seminar,Directed Independent Research,Physiology" | split: "," %}
+    "Medical Imaging I,Medical Imaging II: Advanced Medical Physics,Radiation Therapy,Dosimetry,Radiation Biophysics,Nuclear Instruments and Methods,Nuclear Physics,Quantum Mechanics,Computational Methods,Medical Physics Rotation,Medical Physics Anatomy,Medical Physics Seminar,Directed Independent Research,Physiology" | split: "," %}
 
   {% for title in course_order %}
     {% assign course = site.courses | where: "title", title | first %}
